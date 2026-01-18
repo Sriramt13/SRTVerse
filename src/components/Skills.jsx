@@ -5,7 +5,7 @@ import { TbApi } from "react-icons/tb";
 import { TbBrain } from "react-icons/tb";
 import { TbChartDots } from "react-icons/tb";
 import { VscCode,} from "react-icons/vsc";
-import "../styles/skills.css";
+import "../styles/Skills.css";
 
 const languages = [
   { name: "Python", icon: <FaPython color="#3776AB" /> },
