@@ -1,0 +1,143 @@
+.skills-section {
+  min-height: 100vh;
+  padding: 140px 40px;
+  background: radial-gradient(circle at top, #1a0533, #050010 65%);
+  color: white;
+  text-align: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.skills-section h2 {
+  font-size: 3rem;
+  margin-bottom: 90px;
+}
+
+.tag {
+  color: #c084fc;
+  letter-spacing: 4px;
+  margin-bottom: 12px;
+}
+
+.orbit-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 120px;
+  justify-items: center;
+}
+
+.orbit-block h3 {
+  margin-bottom: 65px;
+  font-size: 1.4rem;
+}
+
+.orbit-wrap {
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+/* Rings */
+.ring {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 1px solid rgba(168, 85, 247, 0.5);
+  box-shadow: 0 0 22px rgba(168, 85, 247, 0.25);
+}
+
+.inner {
+  transform: scale(0.65);
+}
+
+/* Center Letter */
+.orbit-center {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: 2px solid #a855f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  color: #a855f7;
+  background: black;
+  box-shadow: 0 0 30px rgba(168, 85, 247, 0.6);
+  z-index: 5;
+}
+
+/* Rotating ring */
+.icons-rotate {
+  position: absolute;
+  inset: 0;
+  animation: spin 25s linear infinite;
+}
+
+/* Place icon on outer ring */
+.orbit-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:
+    translate(-50%, -50%)
+    rotate(calc(360deg / var(--total) * var(--i)))
+    translate(150px);
+}
+
+/* Icon face stays straight (no animation here) */
+.icon-box {
+  width: 48px;
+  height: 48px;
+  background: black;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px rgba(168,85,247,0.7);
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s ease;
+  transform: rotate(90deg);   /* FACE RIGHT */
+}
+
+
+.icon-box:hover {
+  transform: rotate(90deg) scale(1.15);
+}
+
+
+.icon {
+  font-size: 22px;
+}
+
+.label {
+  position: absolute;
+  bottom: -28px;
+  font-size: 12px;
+  color: #c084fc;
+  opacity: 0;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.icon-box:hover .label {
+  opacity: 1;
+}
+
+/* C icon */
+.c-icon {
+  color: #5fa8ff;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* Ring rotation */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
