@@ -23,7 +23,7 @@ const projects = [
     image: startupsuccess,
     desc: "Machine learning model to predict startup success using historical data and features.",
     tech: ["Python", "Scikit-learn", "Pandas", "Jupyter"],
-    link: "https://srt-startup-success-prediction.onrender.com/",
+    link: "https://startup-success-predictor-55z6.onrender.com/",
   },
   {
     title: "SRT Cinelite",
