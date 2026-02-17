@@ -4,6 +4,7 @@ import srtcinelite from "../assets/srtcinelite.png";
 import edupath from "../assets/edupath.png";
 import mindmap from "../assets/mindmap.png";
 import edusum from "../assets/edusum.png";
+import startupsuccess from "../assets/startupsuccess.png";
 import "../styles/projects.css";
 
 
@@ -17,12 +18,12 @@ const projects = [
     link: "https://srt-bankbot.onrender.com/",
   },
   {
-    title: "FlightFinder",
-    subtitle: "Frontend Flight Booking App",
-    image: flightfinder,
-    desc: "Frontend-only flight booking UI using dummy data with search and filter features.",
-    tech: ["React", "Bootstrap", "JavaScript"],
-    link: "https://flightfinder-eight.vercel.app/",
+    title: "Startup Success Prediction",
+    subtitle: "AI Model for Predicting Startup Success",
+    image: startupsuccess,
+    desc: "Machine learning model to predict startup success using historical data and features.",
+    tech: ["Python", "Scikit-learn", "Pandas", "Jupyter"],
+    link: "https://srt-startup-success-prediction.onrender.com/",
   },
   {
     title: "SRT Cinelite",
@@ -31,6 +32,14 @@ const projects = [
     desc: "Movie browsing platform with trending, search and category filters.",
     tech: ["React", "API", "CSS"],
     link: "https://sriramt13.github.io/SRT-CineLite-/",
+  },
+  {
+    title: "FlightFinder",
+    subtitle: "Frontend Flight Booking App",
+    image: flightfinder,
+    desc: "Frontend-only flight booking UI using dummy data with search and filter features.",
+    tech: ["React", "Bootstrap", "JavaScript"],
+    link: "https://flightfinder-eight.vercel.app/",
   },
   {
     title: "EduPath",
