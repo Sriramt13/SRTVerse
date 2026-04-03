@@ -5,7 +5,7 @@ import edupath from "../assets/edupath.png";
 import mindmap from "../assets/mindmap.png";
 import edusum from "../assets/edusum.png";
 import startupsuccess from "../assets/startupsuccess.png";
-import CareerPathSimulation from "../assets/careerPathSimulation.png";
+import CareerPathSimulation from "../assets/CareerPathSimulation.png";
 import "../styles/projects.css";
 
 
