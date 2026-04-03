@@ -5,6 +5,7 @@ import edupath from "../assets/edupath.png";
 import mindmap from "../assets/mindmap.png";
 import edusum from "../assets/edusum.png";
 import startupsuccess from "../assets/startupsuccess.png";
+import CareerPathSimulation from "../assets/careerPathSimulation.png";
 import "../styles/projects.css";
 
 
@@ -18,12 +19,12 @@ const projects = [
     link: "https://srt-bankbot.onrender.com/",
   },
   {
-    title: "Startup Success Prediction",
-    subtitle: "AI Model for Predicting Startup Success",
-    image: startupsuccess,
-    desc: "Machine learning model to predict startup success using historical data and features.",
-    tech: ["Python", "Scikit-learn", "Pandas", "Jupyter"],
-    link: "https://startup-success-predictor-55z6.onrender.com/",
+    title: "Career Path Simulation System",
+    subtitle: "Full-Stack Simulation Engine for Career Decision Analysis",
+    image: CareerPathSimulation,
+    desc: "Career simulation platform using probabilistic modeling to visualize success, retry, and failure outcomes.",
+    tech: ["React", "Vite", "FastAPI", "Python", "Recharts"],
+    link: "https://career-simulator-gamma.vercel.app/",
   },
   {
     title: "SRT Cinelite",
@@ -32,6 +33,14 @@ const projects = [
     desc: "Movie browsing platform with trending, search and category filters.",
     tech: ["React", "API", "CSS"],
     link: "https://sriramt13.github.io/SRT-CineLite-/",
+  },
+  {
+    title: "Startup Success Prediction",
+    subtitle: "AI Model for Predicting Startup Success",
+    image: startupsuccess,
+    desc: "Machine learning model to predict startup success using historical data and features.",
+    tech: ["Python", "Scikit-learn", "Pandas", "Jupyter"],
+    link: "https://startup-success-predictor-55z6.onrender.com/",
   },
   {
     title: "FlightFinder",
