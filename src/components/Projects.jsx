@@ -5,7 +5,7 @@ import edupath from "../assets/edupath.png";
 import mindmap from "../assets/mindmap.png";
 import edusum from "../assets/edusum.png";
 import startupsuccess from "../assets/startupsuccess.png";
-import careerpathsimulation from "../assets/careerpathsimulation.png";
+import careerPath from "../assets/careerPathSimulation.png";
 import "../styles/projects.css";
 
 
@@ -21,7 +21,7 @@ const projects = [
   {
     title: "Career Path Simulation System",
     subtitle: "Full-Stack Simulation Engine for Career Decision Analysis",
-    image: careerpathsimulation,
+    image: careerPath,
     desc: "Career simulation platform using probabilistic modeling to visualize success, retry, and failure outcomes.",
     tech: ["React", "Vite", "FastAPI", "Python", "Recharts"],
     link: "https://career-simulator-gamma.vercel.app/",
