@@ -6,17 +6,18 @@ import mindmap from "../assets/mindmap.png";
 import edusum from "../assets/edusum.png";
 import startupsuccess from "../assets/startupsuccess.png";
 import careerImg from "../assets/career.png";
+import fraud from "../assets/fraud.png";
 import "../styles/projects.css";
 
 
 const projects = [
   {
-    title: "BankBot",
-    subtitle: "Chatbot for Banking – FAQs & Transactions",
-    image: bankbot,
-    desc: "AI-powered banking chatbot that handles FAQs, balance check, and transactions using NLP and Flask.",
-    tech: ["Python", "Flask", "NLP", "SQLite"],
-    link: "https://srt-bankbot.onrender.com/",
+    title: "FraudShield-AI",
+    subtitle: "AI-Powered Phishing Detection System",
+    image: fraud,
+    desc: "AI system that detects phishing links and generates real-time risk scores.",
+    tech: ["React.js", "Node.js", "Express", "Python", "Flask", "Scikit-learn", "MongoDB", "Vercel", "Render"],
+    link: "https://srt-fraudsheild-ai.vercel.app/",
   },
   {
     title: "Career Path Simulation System",
@@ -33,6 +34,14 @@ const projects = [
     desc: "Movie browsing platform with trending, search and category filters.",
     tech: ["React", "API", "CSS"],
     link: "https://sriramt13.github.io/SRT-CineLite-/",
+  },
+  {
+    title: "BankBot",
+    subtitle: "Chatbot for Banking – FAQs & Transactions",
+    image: bankbot,
+    desc: "AI-powered banking chatbot that handles FAQs, balance check, and transactions using NLP and Flask.",
+    tech: ["Python", "Flask", "NLP", "SQLite"],
+    link: "https://srt-bankbot.onrender.com/",
   },
   {
     title: "Startup Success Prediction",
