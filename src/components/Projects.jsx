@@ -7,10 +7,19 @@ import edusum from "../assets/edusum.png";
 import startupsuccess from "../assets/startupsuccess.png";
 import careerImg from "../assets/career.png";
 import fraud from "../assets/fraud.png";
+import foodbridge from "../assets/foodbridge.png";
 import "../styles/projects.css";
 
 
 const projects = [
+  {
+    title: "FoodBridge-AI",
+    subtitle: "AI-Powered Food Redistribution Platform",
+    image: foodbridge,
+    desc: "Full-stack AI platform that connects donors, NGOs, and volunteers with real-time food tracking and intelligent matching.",
+    tech: ["React.js", "Node.js", "Express", "Python", "Flask", "Scikit-learn","Socket.IO", "Leaflet","EmailJS","MongoDB", "Vercel", "Render"],
+    link: "https://food-bridge-ai-rosy.vercel.app/",
+  },
   {
     title: "FraudShield-AI",
     subtitle: "AI-Powered Phishing Detection System",
