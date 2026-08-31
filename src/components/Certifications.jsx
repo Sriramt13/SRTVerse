@@ -3,6 +3,12 @@ import "../styles/certifications.css";
 
 const certificates = [
   {
+    title: "Full Stack Application Development",
+    type: "ALL",
+    file: "/certificates/full stack application development.pdf",
+    preview: "/certificates/full stack application development.png",
+  },
+  {
     title: "Full stack python",
     type: "ALL",
     file: "/certificates/Full stack python.png",
