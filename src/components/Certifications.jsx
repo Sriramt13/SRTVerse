@@ -15,10 +15,10 @@ const certificates = [
     preview: "/certificates/Full stack python.png",
   },
   {
-    title: "Salesforce AIAssociate",
+    title: "Artificial Intelligence Primer Certification",
     type: "ALL",
-    file: "/certificates/Salesforce AIAssociate.pdf",
-    preview: "/certificates/Salesforce AIAssociate.png",
+    file: "/certificates/Infosys Sprinboard AI/Artificial Intelligence Primer Certification.pdf",
+    preview: "/certificates/Infosys Sprinboard AI/Artificial Intelligence Primer Certification.png",
   },
   {
     title: "IBM-ML with Python",
@@ -27,10 +27,64 @@ const certificates = [
     preview: "/certificates/IBM ML0101EN Certificate _ Cognitive Class.png",
   },
   {
-    title: "Infosys Springboard Programming Fundamentals using Python - Part 1",
+    title: "Artificial Intelligence",
     type: "ALL",
-    file: "/certificates/Infosys Springboard Python/Infosys Springboard Programming Fundamentals using Python - Part 1.pdf",
-    preview: "/certificates/Infosys Springboard Python/Infosys Springboard Programming Fundamentals using Python - Part 1.png",
+    file: "/certificates/Infosys Sprinboard AI/Artificial Intelligence.pdf",
+    preview: "/certificates/Infosys Sprinboard AI/Artificial Intelligence.png",
+  },
+  {
+    title: "Generative AI Unleashing",
+    type: "ALL",
+    file: "/certificates/Infosys Sprinboard AI/Generative AI Unleashing.pdf",
+    preview: "/certificates/Infosys Sprinboard AI/Generative AI Unleashing.png",
+  },
+  {
+    title: "Generative models for developers",
+    type: "ALL",
+    file: "/certificates/Infosys Sprinboard AI/Generative models for developers.pdf",
+    preview: "/certificates/Infosys Sprinboard AI/Generative models for developers.png",
+  },
+  {
+    title: "Introduction to Artificial Intelligence",
+    type: "ALL",
+    file: "/certificates/Infosys Sprinboard AI/Introduction to Artificial Intelligence.pdf",
+    preview: "/certificates/Infosys Sprinboard AI/Introduction to Artificial Intelligence.png",
+  },
+  {
+    title: "Introduction to Natural Language Processing",
+    type: "ALL",
+    file: "/certificates/Infosys Sprinboard AI/Introduction to Natural Language Processing.pdf",
+    preview: "/certificates/Infosys Sprinboard AI/Introduction to Natural Language Processing.png",
+  },
+  {
+    title: "Introduction to OpenAI GPT Models",
+    type: "ALL",
+    file: "/certificates/Infosys Sprinboard AI/Introduction to OpenAI GPT Models.pdf",
+    preview: "/certificates/Infosys Sprinboard AI/Introduction to OpenAI GPT Models.png",
+  },
+  {
+    title: "OpenAI Generative Pre-trained Transformer 3 (GPT-3) for developers",
+    type: "ALL",
+    file: "/certificates/Infosys Sprinboard AI/OpenAI Generative Pre-trained Transformer 3 (GPT-3) for developers.pdf",
+    preview: "/certificates/Infosys Sprinboard AI/OpenAI Generative Pre-trained Transformer 3 (GPT-3) for developers.png",
+  },
+  {
+    title: "Principles of Generative AI Certification",
+    type: "ALL",
+    file: "/certificates/Infosys Sprinboard AI/Principles of Generative AI Certification.pdf",
+    preview: "/certificates/Infosys Sprinboard AI/Principles of Generative AI Certification.png",
+  },
+  {
+    title: "Prompt Engineering",
+    type: "ALL",
+    file: "/certificates/Infosys Sprinboard AI/Prompt Engineering.pdf",
+    preview: "/certificates/Infosys Sprinboard AI/Prompt Engineering.png",
+  },
+  {
+    title: "Computer Vision 101",
+    type: "ALL",
+    file: "/certificates/Infosys Sprinboard AI/Computer Vision 101.pdf",
+    preview: "/certificates/Infosys Sprinboard AI/Computer Vision 101.png",
   },
   {
     title: "Oracle Certified Foundations",
@@ -56,6 +110,38 @@ const certificates = [
     file: "/certificates/Infosys Springboard Python/Database Management System Part - 2.pdf",
     preview: "/certificates/Infosys Springboard Python/Database Management System Part - 2.png",
   },
+  {
+    title: "Infosys Springboard Programming Fundamentals using Python - Part 1",
+    type: "ALL",
+    file: "/certificates/Infosys Springboard Python/Infosys Springboard Programming Fundamentals using Python - Part 1.pdf",
+    preview: "/certificates/Infosys Springboard Python/Infosys Springboard Programming Fundamentals using Python - Part 1.png",
+  },
+  {
+    title: "Deep Learning for Developers",
+    type: "ALL",
+    file: "/certificates/Infosys Sprinboard AI/Deep Learning for Developers.pdf",
+    preview: "/certificates/Infosys Sprinboard AI/Deep Learning for Developers.png",
+  },
+  {
+    title: "Introduction to Data Science",
+    type: "ALL",
+    file: "/certificates/Infosys Sprinboard AI/Introduction to Data Science.pdf",
+    preview: "/certificates/Infosys Sprinboard AI/Introduction to Data Science.png",
+  },
+  {
+    title: "Introduction to Deep Learning",
+    type: "ALL",
+    file: "/certificates/Infosys Sprinboard AI/Introduction to Deep Learning.pdf",
+    preview: "/certificates/Infosys Sprinboard AI/Introduction to Deep Learning.png",
+  },
+  
+  {
+    title: "Introduction to Robotic Process Automation",
+    type: "ALL",
+    file: "/certificates/Infosys Sprinboard AI/Introduction to Robotic Process Automation.pdf",
+    preview: "/certificates/Infosys Sprinboard AI/Introduction to Robotic Process Automation.png",
+  },
+  
   {
     title: "Oracle",
     type: "ALL",
@@ -115,12 +201,6 @@ const certificates = [
     type: "ALL",
     file: "/certificates/IBM -VIBE CODING Completion Certificate _ SkillsBuild.pdf",
     preview: "/certificates/IBM -VIBE CODING Completion Certificate _ SkillsBuild.png",
-  },
-  {
-    title: "pyfs ws",
-    type: "ALL",
-    file: "/certificates/pyfs ws.pdf",
-    preview: "/certificates/pyfs ws.png",
   },
   {
     title: "TATA Forage",
@@ -241,6 +321,12 @@ const certificates = [
     type: "Others",
     file: "/certificates/Participation/LINTA-Certificate of Participation.pdf",
     preview: "/certificates/Participation/LINTA-Certificate of Participation.png",
+  },
+  {
+    title: "pyfs ws",
+    type: "Others",
+    file: "/certificates/pyfs ws.pdf",
+    preview: "/certificates/pyfs ws.png",
   },
   {
     title: "NationBuilding online quiz.",
